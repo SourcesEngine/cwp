@@ -1,0 +1,102 @@
+Microsoft Windows [Version 10.0.26100.3037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>netsh
+netsh>wlan show profile
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : 
+    All User Profile     : ----- 2
+    All User Profile     : ScitechFaculty
+    All User Profile     : ZTE_5G_pYcfAP
+    All User Profile     : 🍊 Pro Max
+    All User Profile     : -----
+    All User Profile     : RED MAGIC
+    All User Profile     : SM Free WiFi
+    All User Profile     : Boss
+    All User Profile     : S 2
+    All User Profile     : S
+    All User Profile     : Lizzie
+    All User Profile     : 
+    All User Profile     : Orange Pro Max
+    All User Profile     : Purple Light
+    All User Profile     : Lenovo C2
+    All User Profile     : Oppo
+    All User Profile     : Lenovo C2 2
+    All User Profile     : OPPO A60
+    All User Profile     : StudentAccess
+    All User Profile     : OPPO F11 PRO
+    All User Profile     : 
+    All User Profile     : **********
+    All User Profile     : **i
+    All User Profile     : iPhone 15 pro galaxy note Samsun
+    All User Profile     : OPPO F11 Pro
+    All User Profile     :   *e
+    All User Profile     : XOS
+    All User Profile     :   Ke
+    All User Profile     : PLDTHOMEFIBRLH3tw
+    All User Profile     : I
+    All User Profile     : 
+    All User Profile     : 
+    All User Profile     : OPPO A17
+    All User Profile     : Infinix HOT 30 PLAY
+    All User Profile     : BTS PISO WIFI
+
+netsh>wlan show profile "ZTE_5G_pYcfAP" key=clear
+
+Profile ZTE_5G_pYcfAP on interface Wi-Fi:
+=======================================================================
+
+Applied: All User Profile
+
+Profile information
+-------------------
+    Version                : 1
+    Type                   : Wireless LAN
+    Name                   : ZTE_5G_pYcfAP
+    Control options        :
+        Connection mode    : Connect automatically
+        Network broadcast  : Connect only if this network is broadcasting
+        AutoSwitch         : Do not switch to other networks
+        MAC Randomization  : Disabled
+
+Connectivity settings
+---------------------
+    Number of SSIDs        : 1
+    SSID name              : "ZTE_5G_pYcfAP"
+    Network type           : Infrastructure
+    Radio type             : [ Any Radio Type ]
+    Vendor extension          : Not present
+
+Security settings
+-----------------
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP-256
+    Authentication         : WPA3-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA3-Personal
+    Cipher                 : CCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : GCMP
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Security key           : Present
+    Key Content            : hatdog5g
+
+Cost settings
+-------------
+    Cost                   : Unrestricted
+    Congested              : No
+    Approaching Data Limit : No
+    Over Data Limit        : No
+    Roaming                : No
+    Cost Source            : Default
+
+netsh>
